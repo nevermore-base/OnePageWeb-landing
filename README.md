@@ -7,6 +7,6 @@
 
 **__Credits__**
 ---
-* Me on VK: *__[my.vk](https://vk.com/brazzz3rs)__*
-* Me on github: *__[my.git](https://github.com/nevermore-base)__* 
+* *Me on __VK__: [my.vk](https://vk.com/brazzz3rs)*
+* *Me on __github__: [my.git](https://github.com/nevermore-base)* 
          
