@@ -1,5 +1,6 @@
-/Макет
 /.idea
-/nodu_modules
 /npm-debug.log
-/build
+/node_modules
+/Макет
+
+
