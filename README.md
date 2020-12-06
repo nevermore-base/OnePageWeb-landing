@@ -18,5 +18,4 @@
 ---
 * *Me on __VK__: [my.vk](https://vk.com/brazzz3rs)*
 * *Me on __github__: [my.git](https://github.com/nevermore-base)*
-* *HYESOS ON VK __vk__: [hyesos.vk](https://vk.com/sane1ka)*
          
