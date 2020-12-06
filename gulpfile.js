@@ -4,7 +4,8 @@ const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf')
-const rename = require("gulp-rename");
+const rename = require('gulp-rename');
+const autoprefixer = require('gulp-autoprefixer');
 
 /* Server */
 gulp.task('server', function() {
