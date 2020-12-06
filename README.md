@@ -14,6 +14,11 @@
 *Для полной установки проекта и всех необходимых файлов используйте ссылку __Git__ для клонирования проекта в нужной вам директории нажмите __ПКМ__ в выпадающем меню выбрать __Git Bush__ для установки пути к нужной директории:*
 > [CLONE](https://github.com/nevermore-base/OnePageWeb-landing.git)
 
+**__Download Links__**
+---
+* *[Git](https://git-scm.com/downloads)*
+* *[WebStorm](https://www.jetbrains.com/ru-ru/webstorm/download/#section=windows)*
+
 **__Credits__**
 ---
 * *Me on __VK__: [my.vk](https://vk.com/brazzz3rs)*
