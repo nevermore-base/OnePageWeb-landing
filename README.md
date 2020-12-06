@@ -18,6 +18,7 @@
 ---
 * *[Git](https://git-scm.com/downloads)*
 * *[WebStorm](https://www.jetbrains.com/ru-ru/webstorm/download/#section=windows)*
+* *[Adobe Photoshop](https://www.adobe.com/ru/)*
 
 **__Credits__**
 ---
