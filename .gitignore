@@ -1,6 +1,7 @@
 /.idea
 /npm-debug.log
 /node_modules
-/Макет
 /source
+/debug.log
+
 
