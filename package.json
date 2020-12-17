@@ -1,0 +1,35 @@
+{
+  "name": "onewebpagelanding",
+  "version": "1.0.0",
+  "description": "This is OneWebPage-Landing website for fixing practical skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevermore-base/OnePageWeb-landing.git"
+  },
+  "author": "Memphi$",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nevermore-base/OnePageWeb-landing/issues"
+  },
+  "homepage": "https://github.com/nevermore-base/OnePageWeb-landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp.spritesmith": "^6.11.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
+}
