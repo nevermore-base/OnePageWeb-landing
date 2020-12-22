@@ -1,0 +1,49 @@
+
+.header {
+  background: url("../images/Header.png") top/cover no-repeat;
+  background-color: #ccc;
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation{
+  margin-top: 48px;
+}
+
+.nav__link{
+  color: white;
+  padding: 18px;
+  font-family: $ff-montserrat-regular;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.logo__text{
+  color: white;
+  margin-top: 40px;
+  font-family: $ff-montserrat-bold;
+  font-size: 24px;
+}
+
+.header__bottom{
+  text-align: center;
+  padding-top: 286px;
+  padding-bottom: 309px;
+}
+
+.welcome{
+  font-family: $ff-montserrat-regular;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.info{
+  font-family: $ff-roboto-regular;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 50px;
+}

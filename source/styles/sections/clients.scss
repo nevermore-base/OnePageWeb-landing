@@ -1,0 +1,47 @@
+.clients__bg{
+  background: #f8f8f8 top/cover no-repeat;
+}
+
+.clients__block{
+  margin-top: 150px;
+  text-align: center;
+  height: 440px;
+  position: relative;
+}
+
+.clients__img{
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.clients__text{
+  font-family: $ff-roboto-regular;
+  font-style: italic;
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 35px;
+  margin-left: 153px;
+  margin-right: 153px;
+}
+
+.clients__head__text{
+  font-family: $ff-roboto-regular;
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #dddddd;
+  background: #dddddd;
+  margin: 2px;
+
+  &:hover{
+    border: 2px solid #c0301c;
+    background: #c0301c;
+  }
+}

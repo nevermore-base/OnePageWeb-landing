@@ -1,0 +1,52 @@
+.button{
+  display: inline-block;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: white;
+  padding: 15px 30px 13px;
+  text-decoration: none;
+
+  &--white{
+    font-family: $ff-montserrat-regular;
+    font-size: 16px;
+    background: none;
+    color: white;
+    transition: 0.2s;
+
+    &:hover{
+      background: white;
+      color: #c0301c;
+    }
+  }
+
+  &--blogs__btn{
+    font-family: $ff-roboto-regular;
+    font-size: 18px;
+    color: white;
+    background: none;
+    transition: 0.2s;
+
+    &:hover{
+      background: white;
+      color: #c0301c;
+    }
+  }
+
+  &--send__msg{
+    font-family: $ff-roboto-regular;
+    font-size: 12px;
+    border: 2px solid #777777;
+    color: #777777;
+
+    &:hover{
+      border: 2px solid #c0301c;
+      background: #c0301c;
+      color: white;
+    }
+  }
+
+  &--text-upercase{
+    text-transform: uppercase;
+  }
+}
+

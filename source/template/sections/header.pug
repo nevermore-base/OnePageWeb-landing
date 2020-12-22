@@ -1,0 +1,16 @@
+header.header
+        .container
+            .header__top
+                .logo
+                    p.logo__text Startup
+                .navigation
+                    nav.nav
+                    -var items = ['Home','Services', 'About', 'Works', 'Blog', 'Clients', 'Contact']
+                        each item in items
+                            a.nav__link(href="#")=item
+        .container
+            .header__bottom
+                h1.welcome WELCOME TO STARTUP
+                .info Your Favorite Creative Agency Template
+                a.button.button--white.button--text-upercase(href="#") GET STARTED
+

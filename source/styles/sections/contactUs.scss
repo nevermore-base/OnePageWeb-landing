@@ -1,0 +1,145 @@
+.contactUs__top{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.contactUs__head__text{
+  font-family: $ff-montserrat-regular;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.contactUs__line{
+  max-width: 50px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+  border: 1px solid black;
+}
+
+.contactUs__about__text{
+  font-family: $ff-roboto-regular;
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 60px;
+}
+
+.contactUs__address__block{
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.contactUs__title{
+  display: inline-block;
+  font-family: $ff-montserrat-regular;
+  font-size: 14px;
+  font-weight: bold;
+  color: #424242;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.contactUs__text{
+  font-family: $ff-roboto-regular;
+  font-size: 12px;
+  color: #777777;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.contactUs__phone{
+  margin-top: 30px;
+}
+
+.contactUs__email{
+  margin-top: 30px;
+}
+
+.fa-envelope-o{
+  display: inline-block;
+  font-size: 15px;
+  color: #424242;
+}
+
+.fa-mobile-phone{
+  font-size: 20px;
+  color: #424242;
+}
+
+.fa-map-marker{
+  font-size: 20px;
+  color: #424242;
+}
+
+.contactUs__info__block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contactUs__info__top{
+
+}
+
+.name__text{
+  width: 350px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.email__text{
+  width: 350px;
+  padding: 10px;
+}
+
+.subject__text{
+  width: 350px;
+  padding: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.company__text{
+  width: 350px;
+  padding: 10px;
+}
+
+.message{
+  margin-bottom: 20px;
+  width: 735px;
+  height: 100px;
+  resize: none;
+  padding: 10px 9px 10px 9px;
+}
+
+input{
+  font-family: $ff-roboto-regular;
+  font-size: 12px;
+  border: 1px solid #777777;
+
+  &:focus::-webkit-input-placeholder{
+    color: transparent;
+  }
+}
+
+textarea{
+  font-family: $ff-roboto-regular;
+  font-size: 12px;
+
+  &:focus::-webkit-input-placeholder{
+    color: transparent;
+  }
+}
+
+.information__text{
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 30px;
+  font-family: $ff-roboto-regular;
+  font-size: 12px;
+  color: #777777;
+}
+
+.contactUs__bottom{
+  margin-bottom: 100px;
+}

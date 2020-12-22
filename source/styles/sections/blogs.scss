@@ -1,0 +1,148 @@
+.blogs__bg{
+  background: url("../../images/blogs_pic.png") top/cover no-repeat;
+  height: 368px;
+  background-color: #ccc;
+  margin-bottom: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.blogs__centered{
+  position: relative;
+  top: 84px;
+}
+
+.blogs__text{
+  font-family: $ff-roboto-regular;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.blogs__about{
+  font-family: $ff-roboto-regular;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 45px;
+}
+
+.blogs__middle__title{
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.blogs__text__title{
+  font-family: $ff-montserrat-regular;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.blogs__line{
+  max-width: 50px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+  border: 1px solid black;
+}
+
+.blogs__text__about{
+  font-family: $ff-roboto-regular;
+  font-size: 16px;
+  color: #424242;
+}
+
+.blogs__item__one{
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.blogs__item__two{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.blogs__info{
+  height: 322px;
+  width: 100%;
+  margin-left: 4%;
+  display: inline-block;
+}
+
+.blogs__middle__text{
+  font-family: $ff-roboto-regular;
+  font-size: 14px;
+  color: #777777;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.blogs__bottom__text{
+  font-family: $ff-roboto-bold;
+  font-size: 13px;
+  font-weight: bold;
+  max-width: 80px;
+  color: #777777;
+  text-decoration: none;
+
+  &:hover {
+    color: #c0301c;
+  }
+}
+
+.blogs__top__title{
+  display: flex;
+  position: relative;
+}
+
+.blogs__date{
+  border: 2px solid #555555;
+  display: inline-block;
+  text-align: center;
+  width: 11%;
+  height: 4%;
+  padding: 1.4% 3% 1.4% 3%;
+  min-width: 69px;
+  min-height: 69px;
+}
+
+.blogs__date__num{
+  position: relative;
+  font-family: $ff-montserrat-bold;
+  font-size: 24px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.blogs__date__month{
+  position: relative;
+  font-family: $ff-montserrat-bold;
+  font-size: 14px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.blogs__title__info{
+  margin-left: 4%;
+  margin-top: 1.5%;
+}
+
+.blogs__title__info__text{
+  font-family: $ff-montserrat-regular;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+
+  &:hover{
+    color: #c0301c;
+  }
+}
+
+.blogs__title__info__author{
+  font-family: $ff-roboto-regular;
+  font-size: 13px;
+  font-weight: inherit;
+  color: #999999;
+  margin-top: 3.7%;
+  font-style: italic;
+}

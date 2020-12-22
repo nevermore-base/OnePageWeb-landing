@@ -1,0 +1,237 @@
+.aboutUs__text{
+  font-family: $ff-montserrat-regular;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutUs__line{
+  max-width: 50px;
+  margin-top: 30px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.aboutUs__info{
+  font-family: $ff-roboto-regular;
+  font-size: 16px;
+  text-align: center;
+  color: #424242;
+}
+
+.aboutUs__middle{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs__leftInfo{
+  font-family: $ff-roboto-regular;
+  font-size: 14px;
+  text-align: left;
+  padding-right: 30px;
+  color: #777777;
+}
+
+.aboutUs__rightInfo{
+  font-family: $ff-roboto-regular;
+  font-size: 14px;
+  text-align: left;
+  color: #777777;
+}
+
+.aboutUs__bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+
+  &:hover .fa-angle-left{
+    opacity: 1;
+  }
+  &:hover .fa-angle-right{
+    opacity: 1;
+  }
+}
+
+.aboutUs__member__name{
+  font-family: $ff-montserrat-regular;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 13px;
+  margin-top: 13px;
+  color: #424242;
+}
+
+.aboutUs__member__post{
+  font-family: $ff-roboto-regular;
+  font-size: 13px;
+  text-align: center;
+  color: #777777;
+}
+
+.aboutUs__pics{
+  display: inline-block;
+}
+
+.links{
+  position: relative;
+  height: 250px;
+  transition: 0.1s;
+
+  &:hover{
+    background: rgba(90,90,90,0.4);
+  }
+
+  &:hover .fa-facebook{
+    opacity: 1;
+  }
+  &:hover .fa-twitter{
+    opacity: 1;
+  }
+  &:hover .fa-google-plus{
+    opacity: 1;
+  }
+  &:hover .fa-linkedin{
+    opacity: 1;
+  }
+}
+
+.aboutUs__member1__img{
+  height: 250px;
+  width: 263px;
+  background: url("../../images/member1.png");
+}
+
+.aboutUs__member2__img{
+  height: 250px;
+  width: 263px;
+  background: url("../../images/member2.png");
+}
+
+.aboutUs__member3__img{
+  height: 250px;
+  width: 263px;
+  background: url("../../images/member3.png");
+}
+
+.aboutUs__member4__img{
+  height: 250px;
+  width: 263px;
+  background: url("../../images/member4.png");
+}
+
+.fa-facebook{
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  opacity: 0;
+  position: absolute;
+  bottom: 35px;
+  left: 69px;
+
+  &:hover{
+    background: #c0301c;
+    color: white;
+    font-size: 17px;
+    padding: 8px 12px 8px 12px;
+  }
+}
+
+.fa-twitter{
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 8px 8px;
+  position: absolute;
+  opacity: 0;
+  bottom: 35px;
+  left: 100px;
+
+  &:hover{
+    background: #c0301c;
+    color: white;
+    font-size: 17px;
+    padding: 8px 8px 8px;
+  }
+}
+
+.fa-google-plus{
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 8px 8px 11px;
+  opacity: 0;
+  position: absolute;
+  bottom: 35px;
+  left: 130px;
+
+  &:hover{
+    background: #c0301c;
+    color: white;
+    font-size: 15px;
+    padding: 8px 8px 8px 11px;
+  }
+}
+
+.fa-linkedin{
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 8px 8px;
+  opacity: 0;
+  position: absolute;
+  bottom: 35px;
+  left: 165px;
+
+  &:hover{
+    background: #c0301c;
+    color: white;
+    font-size: 17px;
+    padding: 8px 8px 8px;
+  }
+}
+
+.fa-angle-left{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px 10px 14px;
+  opacity: 0;
+  position: absolute;
+  bottom: 109px;
+  background: #8c8c8c;
+  transition: 0.1s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  &:focus{
+    background: #c0301c;
+  }
+}
+
+.fa-angle-right{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px 10px 14px;
+  opacity: 0;
+  position: absolute;
+  bottom: 109px;
+  left: 226px;
+  background: #8c8c8c;
+  transition: 0.1s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  &:focus{
+    background: #c0301c;
+  }
+}
+
+
+
